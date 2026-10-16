@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "pinged",
+  "version": "${version}",
+  "name": "Pinged",
+  "description": "Client-side location and player pinging mod with player head and distance indicator.",
+  "authors": [
+    "Savyous"
+  ],
+  "license": "ARR",
+  "icon": "assets/pinged/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.savyous.pinged.PingedClient"
+    ],
+    "modmenu": [
+      "com.savyous.pinged.PingedModMenu"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
